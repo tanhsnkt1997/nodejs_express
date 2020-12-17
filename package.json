@@ -24,11 +24,15 @@
   "homepage": "https://github.com/tanhsnkt1997/nodejs_express#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0"
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^5.11.7"
   },
   "devDependencies": {
+    "husky": "^4.3.5",
+    "lint-staged": "^10.5.3",
     "morgan": "^1.10.0",
     "node-sass": "^5.0.0",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1"
   }
 }

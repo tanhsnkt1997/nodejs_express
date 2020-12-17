@@ -5,6 +5,10 @@ const port = 3000;
 const morgan = require('morgan');
 const handlebars = require('express-handlebars');
 const routes = require('./routes');
+const db = require('./config/db');
+
+//Connect_db
+db.connect();
 
 app.use(express.static(path.join(__dirname, 'public'))); //xu li file tinh
 //
